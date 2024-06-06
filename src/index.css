@@ -1,0 +1,55 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-light bg-dark ;
+}
+
+
+
+/* Global styles */
+h2 {
+  @apply text-3xl font-bold mb-4 text-purple-600;
+}
+
+ul {
+  @apply text-left grid grid-cols-2 gap-4;
+}
+
+ul li {
+  @apply flex items-center;
+}
+
+footer {
+  @apply text-center py-10 bg-gray-900 text-white mt-20;
+}
+.bg {
+  background: url('../public/backg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.bg-hero {
+  background: url('../public/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.bg-profile {
+  background: url('../public/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+/* Specific styles for Education section */
+#education ul {
+  color: black;
+}
+
+.progress-bar {
+  width: 0;
+}
+
+.progress-bar.filled {
+  width: var(--bar-width);
+}
