@@ -1,5 +1,3 @@
-// src/components/Languages.tsx
-
 import React from 'react';
 
 const Languages: React.FC = () => {
