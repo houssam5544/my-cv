@@ -1,10 +1,8 @@
-// src/components/Hero.tsx
-
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGoogle, faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 
-const Hero: React.FC = () => {
+const Top: React.FC = () => {
   return (
     <section className="relative bg-cover rounded-lg bg-center bg-no-repeat bg-black text-white text-center py-16 bg-hero">
       <div className="opacity-10 bg-hero"></div>
@@ -32,4 +30,4 @@ const Hero: React.FC = () => {
   );
 };
 
-export default Hero;
+export default Top;
