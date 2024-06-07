@@ -1,4 +1,3 @@
-/* src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,8 +7,6 @@ body {
 }
 
 
-
-/* Global styles */
 h2 {
   @apply text-3xl font-bold mb-4 text-purple-600;
 }
@@ -40,11 +37,6 @@ footer {
   background-size: cover;
 }
 
-
-/* Specific styles for Education section */
-#education ul {
-  color: black;
-}
 
 .progress-bar {
   width: 0;
